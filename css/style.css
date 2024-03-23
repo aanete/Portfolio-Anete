@@ -22,11 +22,13 @@ h2 {
 	font-weight: 400;
 	font-size: 24px;
 	color: rgb(130, 130, 130);
+	margin-top: 30px;
 }
 
 h3 {
 	font-weight: 500;
 	font-size: 20px;
+	margin-top: 20px;
 }
 
 p {
@@ -44,12 +46,6 @@ button {
 	font-size: larger;
 }
 
-#home-main {
-	margin-top: 100px;
-	display: flex;
-	justify-content: center;
-}
-
 li {
 	list-style: none;
 }
@@ -64,6 +60,9 @@ li {
 .list-of-contents {
 	line-height: 2;
 }
+
 img {
-	border-radius: 10px;
+	border-radius: 5px;
+	width: 100%;
+	height: auto;
 }
