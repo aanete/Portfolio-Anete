@@ -1,5 +1,6 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
+:root {
+	--secondary-color: #828282;
+}
 
 body {
 	font-family: "Inter", sans-serif;
@@ -19,7 +20,7 @@ h1 {
 h2 {
 	font-weight: 400;
 	font-size: 24px;
-	color: rgba(130, 130, 130, 1);
+	color: rgb(130, 130, 130);
 }
 
 h3 {
@@ -30,5 +31,34 @@ h3 {
 p {
 	font-weight: 500;
 	font-size: 20px;
-	color: rgba(130, 130, 130, 1);
+	color: var(--secondary-color);
+}
+
+button {
+	margin-top: 55px;
+	padding: 10px 150px;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	font-size: larger;
+}
+
+#home-main {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	list-style: none;
+}
+.contact-icons {
+	display: inline-block;
+	margin-right: 30px;
+
+	color: var(--secondary-color);
+	font-size: 25px;
+}
+img {
+	border-radius: 10px;
 }
