@@ -39,18 +39,20 @@ p {
 	color: var(--secondary-color);
 }
 
-button {
-	margin-top: 260px;
+.contact-button {
+	margin-top: 50px;
+	border: none;
+
 	padding: 10px 150px;
 	background-color: black;
 	opacity: 0.8;
 	border-radius: 10px;
 	font-size: larger;
 }
-.contact-button {
+
+.contact-button-link {
 	color: white;
 }
-
 button:hover {
 	opacity: 1;
 	box-shadow: 5px 5px 15px var(--secondary-color);
@@ -66,9 +68,9 @@ img {
 	height: auto;
 }
 .landing-photo {
-	width: 85%;
+	width: 70%;
 	height: auto;
-	margin-right: 100px;
+	margin: 0 30px 0 50px;
 	opacity: 0.9;
 }
 
