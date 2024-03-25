@@ -16,6 +16,7 @@ body {
 h1 {
 	font-weight: 600;
 	font-size: 40px;
+	margin-bottom: 30px;
 }
 
 h2 {
@@ -39,25 +40,35 @@ p {
 }
 
 button {
-	margin-top: 55px;
+	margin-top: 260px;
 	padding: 10px 150px;
 	background-color: black;
-	color: white;
+	opacity: 0.8;
 	border-radius: 10px;
 	font-size: larger;
 }
+.contact-button {
+	color: white;
+}
 
+button:hover {
+	opacity: 1;
+	box-shadow: 5px 5px 15px var(--secondary-color);
+	transition: 30ms ease-in-out;
+}
 li {
 	list-style: none;
 }
 
 img {
-	border-radius: 5px;
+	border-radius: 10px;
 	width: 100%;
 	height: auto;
 }
 .landing-photo {
-	padding-right: 60px;
+	width: 85%;
+	height: auto;
+	margin-right: 100px;
 	opacity: 0.9;
 }
 
@@ -67,6 +78,8 @@ img {
 
 .tumblr:hover {
 	opacity: 1;
+	box-shadow: 5px 5px 15px var(--secondary-color);
+	transition: 30ms ease-in-out;
 }
 .contact-icons {
 	display: inline-block;
