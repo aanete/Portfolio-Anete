@@ -20,11 +20,11 @@ h1 {
 }
 
 h2 {
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 24px;
 	color: rgb(130, 130, 130);
-	margin-top: 10px;
-	margin-bottom: 40px;
+	margin-top: 40px;
+	margin-bottom: 10px;
 }
 
 h3 {
@@ -34,7 +34,7 @@ h3 {
 }
 
 p {
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 20px;
 	color: var(--secondary-color);
 }
@@ -68,7 +68,7 @@ img {
 	height: auto;
 }
 .landing-photo {
-	width: 70%;
+	width: 80%;
 	height: auto;
 	margin: 0 30px 0 50px;
 	opacity: 0.9;
@@ -100,11 +100,18 @@ a {
 	color: black;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 770px) {
 	header {
 		text-align: center;
 	}
 }
+
 .about-main {
 	text-align: center;
+	margin-top: 100px;
+}
+
+.about-photo {
+	width: 400px;
+	margin-top: 40px;
 }
