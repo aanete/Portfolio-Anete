@@ -123,6 +123,10 @@ footer {
 .list-of-contents {
 	line-height: 2;
 }
+
+.logo-icon {
+	width: 90px;
+}
 @media (max-width: 1000px) {
 	.contact-button {
 		padding: 10px 100px;
