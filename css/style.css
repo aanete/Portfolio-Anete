@@ -136,6 +136,9 @@ footer {
 	header {
 		text-align: center;
 	}
+	.about-photo {
+		width: 60%;
+	}
 
 	.contact-page-icons {
 		display: block;
