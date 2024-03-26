@@ -83,12 +83,22 @@ img {
 	box-shadow: 5px 5px 15px var(--secondary-color);
 	transition: 30ms ease-in-out;
 }
+
+footer {
+	opacity: 0.7;
+}
 .contact-icons {
 	display: inline-block;
-	margin-right: 30px;
-	margin-top: 30px;
+	margin-right: 20px;
+
 	color: var(--secondary-color);
 	font-size: 25px;
+	opacity: 0.7;
+}
+
+.contact-page-icons {
+	display: inline-block;
+	margin: 20px 30px 20px 0;
 }
 
 .list-of-contents {
@@ -104,9 +114,13 @@ a {
 	header {
 		text-align: center;
 	}
+	.contact-page-icons {
+		display: block;
+	}
 }
 
-.about-main {
+.about-main,
+.work-main {
 	text-align: center;
 	margin-top: 100px;
 }
@@ -114,4 +128,8 @@ a {
 .about-photo {
 	width: 400px;
 	margin-top: 40px;
+}
+
+.contact-page-icons {
+	font-size: 50px;
 }
