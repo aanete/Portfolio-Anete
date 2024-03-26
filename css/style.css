@@ -72,6 +72,12 @@ img {
 	height: auto;
 	margin: 0 30px 0 50px;
 	opacity: 0.9;
+	border-radius: 200px;
+}
+
+.about-photo {
+	border-radius: 200px;
+	width: 80%;
 }
 
 .tumblr {
@@ -84,6 +90,14 @@ img {
 	transition: 30ms ease-in-out;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+main {
+	text-align: center;
+	margin-top: 100px;
+}
 footer {
 	opacity: 0.7;
 }
@@ -95,7 +109,6 @@ footer {
 	font-size: 25px;
 	opacity: 0.7;
 }
-
 .contact-page-icons {
 	display: inline-block;
 	margin: 20px 30px 20px 0;
@@ -105,9 +118,13 @@ footer {
 	line-height: 2;
 }
 
-a {
-	text-decoration: none;
-	color: black;
+.about-photo {
+	width: 400px;
+	margin-top: 40px;
+}
+
+.contact-page-icons {
+	font-size: 50px;
 }
 
 @media (max-width: 1000px) {
@@ -126,19 +143,4 @@ a {
 	.contact-button {
 		padding: 10px 60px;
 	}
-}
-
-.about-main,
-.work-main {
-	text-align: center;
-	margin-top: 100px;
-}
-
-.about-photo {
-	width: 400px;
-	margin-top: 40px;
-}
-
-.contact-page-icons {
-	font-size: 50px;
 }
