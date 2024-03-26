@@ -9,9 +9,6 @@ body {
 	font-variation-settings: "slnt" 0;
 	margin: 20px 50px;
 }
-.container-fluid {
-	margin-top: 100px;
-}
 
 h1 {
 	font-weight: 600;
@@ -39,25 +36,28 @@ p {
 	color: var(--secondary-color);
 }
 
+.home-main-container {
+	margin-top: 100px;
+}
+
 .contact-button {
 	margin-top: 50px;
 	border: none;
-
 	padding: 10px 150px;
 	background-color: black;
 	opacity: 0.8;
 	border-radius: 10px;
 	font-size: larger;
 }
-
-.contact-button-link {
-	color: white;
-}
 button:hover {
 	opacity: 1;
 	box-shadow: 5px 5px 15px var(--secondary-color);
 	transition: 30ms ease-in-out;
 }
+.contact-button-link {
+	color: white;
+}
+
 li {
 	list-style: none;
 }
@@ -110,12 +110,21 @@ a {
 	color: black;
 }
 
+@media (max-width: 1000px) {
+	.contact-button {
+		padding: 10px 100px;
+	}
+}
 @media (max-width: 770px) {
 	header {
 		text-align: center;
 	}
+
 	.contact-page-icons {
 		display: block;
+	}
+	.contact-button {
+		padding: 10px 80px;
 	}
 }
 
