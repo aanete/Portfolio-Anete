@@ -102,6 +102,10 @@ img {
 	margin-top: 40px;
 }
 
+.external-link:hover {
+	text-decoration: underline;
+}
+
 .contact-page-icons {
 	font-size: 50px;
 	display: inline-block;
@@ -111,6 +115,7 @@ img {
 .contact-page-icons:hover {
 	opacity: 1;
 }
+
 footer {
 	opacity: 0.7;
 }
